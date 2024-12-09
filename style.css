@@ -38,6 +38,7 @@ a {
   transition: 0.3s ease;
   color: #A59D84;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
 #btn-beige {
@@ -48,7 +49,12 @@ a {
 }
 
 .card .fa-linkedin-in {
-  font-size: 30px;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.card .fa-instagram {
+  font-size: 35px;
 }
 
 ul, li {
@@ -60,13 +66,17 @@ a:hover {
   color: #C1BAA1;
 }
 
+.link-noline {
+  text-decoration: none;
+}
+
 .card {
   background-color: white;
   padding: 50px 50px;
-  width: 70%;
+  width: 60%;
   margin: 25px auto;
   border-radius: 10px;
-  box-shadow: 0 0 25px rgba(0,0,0,0.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 960px) {
