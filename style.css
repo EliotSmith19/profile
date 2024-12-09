@@ -1,0 +1,91 @@
+body {
+  background-color: #ECEBDE;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #A59D84;
+  line-height: 35px;
+  padding: 50px 15%;
+}
+
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+h1, h2{
+  font-family: "Barlow Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+a {
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #A59D84;
+  font-weight: bold;
+}
+
+#btn-beige {
+  background-color: #ECEBDE;
+  padding: 5px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.card .fa-linkedin-in {
+  font-size: 30px;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+a:hover {
+  color: #C1BAA1;
+}
+
+.card {
+  background-color: white;
+  padding: 50px 50px;
+  width: 70%;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
